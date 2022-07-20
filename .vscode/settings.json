@@ -1,0 +1,20 @@
+{
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  /* Ignore generate JS files */
+  "files.exclude": {
+    "dist": true, 
+    "node_modules": true
+  },
+  "files.eol": "\r\n",
+}
